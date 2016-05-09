@@ -1,0 +1,136 @@
+.container-fluid{
+   overflow: auto;
+}
+.form-horizontal{
+    position: relative;
+    bottom:50px;
+    background-color: #fff;
+    margin-top: 50px;
+    padding: 55px;
+    border-radius: 1px;
+    border: 1px solid rgb(72,72,72);
+    height: 300px;
+    overflow: auto;
+}
+.signup{
+    display: none;
+}
+
+#form{
+     background:url('../img/signin_bg.jpg') no-repeat center center;
+    background-size: cover;
+    height: 700px;
+    position: relative;
+    top: -20px;
+    z-index: 1;
+}
+.navbar{
+
+
+}
+.nav-tabs{
+/*
+    position: relative;
+    top:114px;
+*/
+    background-color: ivory;
+}
+#switch{
+    margin-top: 140px;
+}
+.nav-justified{
+    background-color: lightgray;
+}
+.brand{
+    width: 100px;
+    height: auto;
+    position: relative;
+    top: -6px;
+}
+.glyphicon-user,.glyphicon-lock{
+    position: relative;
+    top:-25px;
+    right: 5px;
+    float: right;
+  
+}
+
+#supporting{
+    
+    position: relative;
+    top:-20px;
+    background-color: rgb(71,72,75);
+    text-align: center;
+    height: 210px;
+}
+/*
+#supporting .col-md-4{
+    
+}
+*/
+#supporting h3{
+    color:rgb(253,191,61);
+    font-weight: 600;
+}
+#supporting p{
+    color: white;
+    margin-top: 30px;
+}
+#supporting .btn-lg{
+    background-color: black;
+    color:white;
+}
+/*
+hr{
+    position: relative;
+    top:-147px;
+    width: 1px;
+    height: 198px;
+    float: right;
+    border-left: 1px solid rgb(232,231,225);
+     
+}
+*/
+#body {
+    position: relative;
+    top:-20px;
+    background: url('../img/b_bg.jpg') no-repeat center center;
+    background-size: cover;
+    height: 600px;
+}
+.jumbotron{
+    background-color: transparent;
+}
+.btn-lg{
+    background-color: dimgrey;
+    border: none;
+}
+.product{
+    padding-bottom: 10px;
+}
+.product img{
+    display: block;
+    height: 200px;
+
+}
+#gallery h2{
+    margin-top: 20px;
+    padding-left: 10px;
+    border-left:3px solid purple;
+}
+#shop_cate {
+    height: 800px;
+   
+}
+.nav li{
+    border-left: 1px solid rgb(221,221,221);
+}
+.like_icon{
+    margin-top: 3px;
+    
+    
+}
+/*
+#supporting col-md-4:nth-child(1),#supporting col-md-4:nth-child(2){
+    border-left: 1px solid white;
+}*/
