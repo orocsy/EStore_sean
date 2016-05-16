@@ -24,10 +24,7 @@
     top: -20px;
     z-index: 1;
 }
-.navbar{
 
-
-}
 .nav-tabs{
 /*
     position: relative;
@@ -123,13 +120,41 @@ hr{
    
 }
 .nav li{
+    height: 100%;
     border-left: 1px solid rgb(221,221,221);
 }
 .like_icon{
     margin-top: 3px;
-    
-    
 }
+#addTo_cart li{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.product_img{
+    width: 90%;
+    margin-left: 5%
+}
+.nav nav-tabs{
+    background-color: white;
+}
+#specification,#review{
+    display: none;
+}
+.product_brief{
+    word-spacing: 2px;
+    letter-spacing: 0.5px;  
+}
+.label .label-default{
+    
+    padding-bottom: 10px;
+}
+.add_to_cart_btn{
+    display: block;
+    float: right;
+    margin-right: 20px;
+    word-spacing: 2px;
+}
+
 /*
 #supporting col-md-4:nth-child(1),#supporting col-md-4:nth-child(2){
     border-left: 1px solid white;
