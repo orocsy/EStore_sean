@@ -1,0 +1,27 @@
+{
+  "name": "estore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "connect-mongo": "^1.2.0",
+    "cookie-parser": "^1.4.2",
+    "crypto": "0.0.3",
+    "ejs": "^2.4.2",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "mongoose": "^4.4.19",
+    "nodemon": "^1.9.2"
+  },
+  "devDependencies": {
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.0"
+  }
+}

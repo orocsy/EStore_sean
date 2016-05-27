@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+    <script src="http://www.w3schools.com/lib/w3data.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../static/js/main.js"></script>
+</head>
+<body>
+
+<div class="container-fluid" >
+    <div class="row">
+        <div w3-include-html="/nav"></div>
+        <script>
+            w3IncludeHTML();
+        </script>
+    </div>
+    <div class="row" id="form">
+        <div class="col-md-4">
+        </div>
+        <div  class="col-md-5">
+
+            <div class="row">
+                <div id="switch" class="col-md-12">
+                    <ul id="tabbox" class="nav nav-tabs nav-justified">
+
+                        <li  class="active tab" id="login" ><a href="#">Sign in</a></li>
+                        <li class="tab" id="signup" ><a href="#">Sign up</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-md-12">
+
+                    <form id="loginbox" action="/auth/login" class="form-horizontal signin" method="post">
+                        <%= msg %>
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                            <div class="col-md-10">
+
+                                <input type="text" class="form-control" id="inputEmail3" name="username" placeholder="Email">
+                                <span class="glyphicon glyphicon-user"></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputPassword3" class="col-md-2 control-label">Password</label>
+                            <div class="col-sm-10">
+                                <input type="password" class="form-control" id="inputPassword3" name="password" placeholder="Password">
+                                <span class="glyphicon glyphicon-lock"></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox"> Remember me
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="submit" class="btn btn-default">Sign in</button>
+                            </div>
+                        </div>
+
+                    </form>
+                    <form id="signupbox" action="/auth/signup" class="form-horizontal signup" method="post">
+                        <%= msg %>
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                            <div class="col-md-10">
+
+                                <input type="text" class="form-control" id="inputEmail" name="username" placeholder="Email">
+                                <span class="glyphicon glyphicon-user"></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputPassword3" class="col-md-2 control-label">Password</label>
+                            <div class="col-sm-10">
+                                <input type="password" class="form-control" id="inputPassword" name="password" placeholder="Password">
+                                <span class="glyphicon glyphicon-lock"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="submit" class="btn btn-default">Sign up</button>
+                            </div>
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-1">
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+
+</html>
